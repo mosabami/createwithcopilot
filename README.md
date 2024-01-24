@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+```bash
+what is the npx command to create a react app
+```
+```bash
+in this folder i have created a basic react app using the npx create-react-app command. now i need to turn  this basic app into a very simple ecommerce website. lets start with the home page. it should display the 9 products with 3 products epr row. can you help with that?
+```
+```bash
+great. how do i modify my App.js file to use these components?
+```
+```bash
+how do i update the styling of the images so that they are always a reasonable size?
+```
+```bash
+going forward id like my components to be in separate files
+```
+```bash
+help me add a simple nagivation bar at the top and replace it with a simple navigation bar that shows a home button and an order button. remember, components should be in separate files 
+```
+```bash
+ok can you help me make the navbar look a little nicer? like a real navbar. include the css part as well that i can use for styling
+```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```bash
+perfect. now i want to add a new page called product details. i also want to update the app so that when i click on a product, it goes to the product details page that shows the same information as the home page but just for that product
+```
 
-## Available Scripts
+```bash
+i got an error...
+```
 
-In the project directory, you can run:
+```bash
+perfect. now i see that the links are appropriately setup. however i want the link to only apply to the product name, not the product name description and price
+```
 
-### `npm start`
+```bash
+great. now i want clicking on Home in the navbar to return back to the home screen
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+i want to pages to look nicer. can we update css so that the page (not including navbar) is wrapped around a container that has some margin on the left and right and the components are centered
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+ok now i want to add a new state called order initiallized as an empty dictionary. i also want to add a "cart quantity" under price in the product details and product components. under that i want to add a "Add to cart" button. when the add to cart button is clicked the product id is taken as a key and value increases by 1 and stored in the order state
+```
 
-### `npm test`
+```bash
+actually i need the state to come from the App component because it needs to feed the Product component as well. make sure these new props are being passed on from the app component to the product component via the homepage component
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+```bash
+i want to add a new page called cart. for every product that has an item in addtocart, i want to show the product name, the price and the quantity and the price * quantity
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+great. now i want that cart page to display as a table with each product forming a new row. at the bottom of the table should be a grand total that adds up all totals
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+great. can you make this table look nice?
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+ok perfect. now add a button at the bottom "Place order". once that button is clicked, it clears the order state. make sure that the setorder function is passed as a prop from the App component
+```
