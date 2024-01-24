@@ -6,6 +6,7 @@ Prerequisites:
 * Visual studio code
 * GitHub copilot license
 * GitHub copilot chat expension installed
+* npm and npx
 * Some experience with the React library for debugging
 * Docker desktop (optional)
 
@@ -13,6 +14,10 @@ This process was used to create this app: https://github.com/mosabami/simpleecom
 
 ```bash
 what is the npx command to create a react app
+```
+
+```bash
+what is the npx command to start a react app in dev mode?
 ```
 ```bash
 in this folder i have created a basic react app using the npx create-react-app command. now i need to turn  this basic app into a very simple ecommerce website. lets start with the home page. it should display the 9 products with 3 products per row. i want the product id in string form of numbers. can you help with that?
