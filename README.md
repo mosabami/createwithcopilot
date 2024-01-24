@@ -1,16 +1,24 @@
 # Create an ecommerce website using GitHub Copilot Chat
-React is perhaps the most popular front end development library in the world. It is an excellent library allowing you to break your UI into components that can be worked on independently. 
-GitHub copilot chat uses AI to answer questions related to software development. You can send it prompts describing what you are trying to build or even your errors and it can answer them fairly accurately. In this example, i will demonstrate how you can use github copilot to build the frontend of a multipage ecommerce website and containerize it without writing a single line of code yourself.
+In this example, i will demonstrate how you can use github copilot to build the frontend of a multipage e-commerce website, deploy it to gh pages and containerize it without writing a single line of code yourself.
 
-Prerequisites:
+This process was used to create this app: https://github.com/mosabami/simpleecom which you can currently test online here: https://simpleeconcont.orangedesert-68da496d.eastus.azurecontainerapps.io/ 
+
+## About React
+React is perhaps the most popular front end development library in the world written in JavaScript. It is an excellent library allowing you to break your UI into components that can be worked on independently. 
+
+## About GitHub Copilot Chat
+GitHub copilot chat uses AI to answer questions related to software development. You can send it prompts describing what you are trying to build or even your errors and it can answer them fairly accurately. 
+
+## Prerequisites
 * Visual studio code
 * GitHub copilot license
 * GitHub copilot chat expension installed
-* npm and npx
+* npm npx
 * Some experience with the React library for debugging
 * Docker desktop (optional)
 
-This process was used to create this app: https://github.com/mosabami/simpleecom which you can currently test online here: https://simpleeconcont.orangedesert-68da496d.eastus.azurecontainerapps.io/ 
+## Execution
+Enter the following prompts in the chat to get the chatbot to respond to you with the code you need to build the app. Paste the code in the appropriate files/folder and test the changes on your browser as you go. If you run into errors, ask the chatbot to help you debut and fix them.
 
 ```bash
 what is the npx command to create a react app
@@ -81,4 +89,12 @@ great. can you make this table look nice?
 
 ```bash
 ok perfect. now add a button at the bottom "Place order". once that button is clicked, it clears the order state. make sure that the setorder function is passed as a prop from the App component
+```
+
+```bash
+how do i deploy my multipage react app to github pages?
+```
+
+```bash
+create a dockerfile using node v18 to run this react app
 ```
