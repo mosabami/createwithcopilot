@@ -1,0 +1,37 @@
+/* Cart.css */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .cart-table th {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  .cart-table tfoot td {
+    font-weight: bold;
+  }
+
+
+.place-order-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .place-order-button:hover {
+    background-color: #45a049;
+  }
