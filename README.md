@@ -1,7 +1,7 @@
 # Create an ecommerce website using GitHub Copilot Chat
 In this example, i will demonstrate how you can use github copilot to build the frontend of a multipage e-commerce website, deploy it to gh pages and containerize it without writing a single line of code yourself.
 
-This process was used to create this app: https://github.com/mosabami/simpleecom which you can currently test online here: https://simpleeconcont.orangedesert-68da496d.eastus.azurecontainerapps.io/ 
+This process was used to create this app: https://github.com/mosabami/simpleecom which you can currently test online here: https://simpleeconcont.orangedesert-68da496d.eastus.azurecontainerapps.io/ or check out this preliminary version of the website running in this repo on GitHub pages: http://mosabami.github.io/createwithcopilot.
 
 ## About React
 React is perhaps the most popular front end development library in the world written in JavaScript. It is an excellent library allowing you to break your UI into components that can be worked on independently. 
