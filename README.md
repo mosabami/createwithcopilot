@@ -1,8 +1,21 @@
+# Create an ecommerce website using GitHub Copilot Chat
+React is perhaps the most popular front end development library in the world. It is an excellent library allowing you to break your UI into components that can be worked on independently. 
+GitHub copilot chat uses AI to answer questions related to software development. You can send it prompts describing what you are trying to build or even your errors and it can answer them fairly accurately. In this example, i will demonstrate how you can use github copilot to build the frontend of a multipage ecommerce website and containerize it without writing a single line of code yourself.
+
+Prerequisites:
+* Visual studio code
+* GitHub copilot license
+* GitHub copilot chat expension installed
+* Some experience with the React library for debugging
+* Docker desktop (optional)
+
+This process was used to create this app: https://github.com/mosabami/simpleecom which you can currently test online here: https://simpleeconcont.orangedesert-68da496d.eastus.azurecontainerapps.io/ 
+
 ```bash
 what is the npx command to create a react app
 ```
 ```bash
-in this folder i have created a basic react app using the npx create-react-app command. now i need to turn  this basic app into a very simple ecommerce website. lets start with the home page. it should display the 9 products with 3 products epr row. can you help with that?
+in this folder i have created a basic react app using the npx create-react-app command. now i need to turn  this basic app into a very simple ecommerce website. lets start with the home page. it should display the 9 products with 3 products per row. i want the product id in string form of numbers. can you help with that?
 ```
 ```bash
 great. how do i modify my App.js file to use these components?
